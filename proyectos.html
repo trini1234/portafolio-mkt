@@ -21,45 +21,83 @@
         <!-- 1. Menú de navegación superior -->
         <nav class="nav">
             <ul class="nav-list">
-                <li><a href="index.html" class="nav-link active">Inicio</a></li>
-                <li><a href="proyectos.html" class="nav-link">Proyectos</a></li>
+                <li><a href="index.html" class="nav-link">Inicio</a></li>
+                <li><a href="proyectos.html" class="nav-link active">Proyectos</a></li>
+
                 <li><a href="contacto.html" class="nav-link">Contacto</a></li>
             </ul>
         </nav>
-        <div class="projects-container">
-            <h2>Mis Proyectos</h2>
 
-            <div class="projects-grid">
-                <!-- Proyecto 1 -->
-                <article class="project-card">
-                    <img src="img/proyecto1.jpg" alt="Captura de pantalla de Proyecto 1">
-                    <h3>Plan de marketing</h3>
-                    <p>Una aplicación web para gestionar finanzas personales utilizando HTML semántico y CSS responsivo.
-                    </p>
-                    <a href="https://github.com/tu-usuario/proyecto-1" target="_blank" class="btn-link">Ver Código</a>
-                </article>
+        <header class="projects-header">
+            <h1 class="projects-title">Proyectos</h1>
 
-                <!-- Proyecto 2 -->
-                <article class="project-card">
-                    <img src="img/proyecto1.jpg" alt="Captura de pantalla de Proyecto 1">
-                    <h3>Plan de marketing</h3>
-                    <p>Una aplicación web para gestionar finanzas personales utilizando HTML semántico y CSS responsivo.
-                    </p>
-                    <a href="https://github.com/tu-usuario/proyecto-1" target="_blank" class="btn-link">Ver Código</a>
-                </article>
+            <p class="projects-subtitle">Aquí algunos proyectos en los que he trabajado.</p>
+        </header>
+        <section class="projects-list">
 
-                <!-- Proyecto 2 -->
-                <article class="project-card">
-                    <img src="img/proyecto1.jpg" alt="Captura de pantalla de Proyecto 1">
-                    <h3>Plan de marketing</h3>
-                    <p>Una aplicación web para gestionar finanzas personales utilizando HTML semántico y CSS responsivo.
-                    </p>
-                    <a href="https://github.com/tu-usuario/proyecto-1" target="_blank" class="btn-link">Ver Código</a>
-                </article>
+            <!-- Proyecto 1 -->
+            <article class="project-item">
+                <div class="project-info">
+                    <h2 class="project-name">Proyecto Plan de marketing</h2>
+                    <p class="project-desc">Diseño y desarrollo de plan de marketing digital enfocado en redes sociales
+                        y posicionamiento.</p>
+                    <a href="#" class="project-link">
+                        Ver proyecto
+                        <svg class="arrow-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <line x1="5" y1="12" x2="19" y2="12"></line>
+                            <polyline points="12 5 19 12 12 19"></polyline>
+                        </svg>
+                    </a>
+                </div>
+                <div class="project-media">
+                    <img src="img/images.jpg" alt="Proyecto Plan de marketing" class="project-img">
+                </div>
+            </article>
 
-                <!-- Repite la estructura para el Proyecto 2 y Proyecto 3 -->
-            </div>
-        </div>
+            <!-- Proyecto 2 -->
+            <article class="project-item">
+                <div class="project-info">
+                    <h2 class="project-name">Gestión RRSS</h2>
+                    <p class="project-desc">Administración de redes sociales, creación de contenido y análisis de
+                        métricas.</p>
+                    <a href="#" class="project-link">
+                        Ver proyecto
+                        <svg class="arrow-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <line x1="5" y1="12" x2="19" y2="12"></line>
+                            <polyline points="12 5 19 12 12 19"></polyline>
+                        </svg>
+                    </a>
+                </div>
+                <div class="project-media">
+                    <img src="img/images.jpg" alt="Gestión RRSS" class="project-img">
+                </div>
+            </article>
+
+            <!-- Proyecto 3 -->
+            <article class="project-item">
+                <div class="project-info">
+                    <h2 class="project-name">Creación sitios web</h2>
+                    <p class="project-desc">Diseño y desarrollo de sitios web modernos, responsivos y optimizados para
+                        SEO.</p>
+                    <a href="#" class="project-link">
+                        Ver proyecto
+                        <svg class="arrow-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <line x1="5" y1="12" x2="19" y2="12"></line>
+                            <polyline points="12 5 19 12 12 19"></polyline>
+                        </svg>
+                    </a>
+                </div>
+                <div class="project-media">
+                    <img src="img/images.jpg" alt="Creación sitios web" class="project-img">
+                </div>
+            </article>
+
+        </section>
+
+
     </main>
 
 
