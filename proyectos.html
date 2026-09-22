@@ -11,6 +11,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&amp;display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 
 <body>
@@ -28,7 +29,7 @@
             </ul>
         </nav>
 
-        <header class="projects-header">
+        <header class="projects-header" data-aos="fade-down" data-aos-duration="600">
             <h1 class="projects-title">Proyectos</h1>
 
             <p class="projects-subtitle">Aquí algunos proyectos en los que he trabajado.</p>
@@ -36,12 +37,11 @@
         <section class="projects-list">
 
             <!-- Proyecto 1 -->
-            <article class="project-item">
+            <article class="project-item" data-aos="fade-up">
                 <div class="project-info">
-                    <h2 class="project-name">Proyecto Plan de marketing</h2>
-                    <p class="project-desc">Diseño y desarrollo de plan de marketing digital enfocado en redes sociales
-                        y posicionamiento.</p>
-                    <a href="#" class="project-link">
+                    <h2 class="project-name">Plan de marketing Copec</h2>
+                    <p class="project-desc">Proyecto que analiza la situacion digital de la empresa Copec.</p>
+                    <a href="https://canva.link/3njysbixosm932i" class="project-link">
                         Ver proyecto
                         <svg class="arrow-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
                             stroke-linecap="round" stroke-linejoin="round">
@@ -51,17 +51,17 @@
                     </a>
                 </div>
                 <div class="project-media">
-                    <img src="img/images.jpg" alt="Proyecto Plan de marketing" class="project-img">
+                    <img src="img/copec.jpg" alt="Proyecto Plan de marketing" class="project-img">
                 </div>
             </article>
 
             <!-- Proyecto 2 -->
-            <article class="project-item">
+            <article class="project-item" data-aos="fade-up">
                 <div class="project-info">
-                    <h2 class="project-name">Gestión RRSS</h2>
-                    <p class="project-desc">Administración de redes sociales, creación de contenido y análisis de
-                        métricas.</p>
-                    <a href="#" class="project-link">
+                    <h2 class="project-name">Nike: Estrategia y experiencia</h2>
+                    <p class="project-desc">Analisis de las estrategias de ventas de Nike y la experiencia del cliente.
+                    </p>
+                    <a href="https://canva.link/gkdfhl23qnw26ik" class="project-link">
                         Ver proyecto
                         <svg class="arrow-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
                             stroke-linecap="round" stroke-linejoin="round">
@@ -71,17 +71,17 @@
                     </a>
                 </div>
                 <div class="project-media">
-                    <img src="img/images.jpg" alt="Gestión RRSS" class="project-img">
+                    <img src="img/Nike estrategia y experiencia.jpg" alt="Gestión RRSS" class="project-img">
                 </div>
             </article>
 
             <!-- Proyecto 3 -->
-            <article class="project-item">
+            <article class="project-item" data-aos="fade-up">
                 <div class="project-info">
-                    <h2 class="project-name">Creación sitios web</h2>
-                    <p class="project-desc">Diseño y desarrollo de sitios web modernos, responsivos y optimizados para
-                        SEO.</p>
-                    <a href="#" class="project-link">
+                    <h2 class="project-name">Proyecto finanzas</h2>
+                    <p class="project-desc">Ideas inteligentes en Valparaiso y solucion tegnologica para la gestion
+                        urbana del estacionamiento.</p>
+                    <a href="https://canva.link/wt0vhba4yi4ofeh" class="project-link">
                         Ver proyecto
                         <svg class="arrow-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
                             stroke-linecap="round" stroke-linejoin="round">
@@ -91,7 +91,8 @@
                     </a>
                 </div>
                 <div class="project-media">
-                    <img src="img/images.jpg" alt="Creación sitios web" class="project-img">
+                    <img src="img/Proyecto finanzas .pdf_20260910_083147_0000.pdf.jpg" alt="Creación sitios web"
+                        class="project-img">
                 </div>
             </article>
 
@@ -101,7 +102,10 @@
     </main>
 
 
-
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>
